@@ -1,0 +1,21 @@
+# Fichiers sensibles
+.env
+*.sqlite3
+*.pyc
+__pycache__/
+
+# Django
+/db.sqlite3
+/media/
+/staticfiles/
+
+# Environnement virtuel
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Fichiers de logs
+*.log
