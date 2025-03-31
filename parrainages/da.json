@@ -1,0 +1,3231 @@
+[
+    {
+      "model": "admin.logentry",
+      "pk": 1,
+      "fields": {
+        "action_time": "2025-03-20T03:05:03.604Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "ANNE Kende",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 2,
+      "fields": {
+        "action_time": "2025-03-20T03:05:53.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "SOW Issa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 3,
+      "fields": {
+        "action_time": "2025-03-20T03:07:29.682Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "SALL Oumou",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 4,
+      "fields": {
+        "action_time": "2025-03-20T03:09:18.379Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "SOW Issa (Candidat)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 5,
+      "fields": {
+        "action_time": "2025-03-20T03:09:45.481Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "ANNE parraine SOW",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 6,
+      "fields": {
+        "action_time": "2025-03-20T03:10:07.657Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "SALL parraine SOW",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 7,
+      "fields": {
+        "action_time": "2025-03-22T02:21:10.811Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "nom_utilisateur",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 8,
+      "fields": {
+        "action_time": "2025-03-22T02:21:47.742Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "WADE Birane (Agent DGE)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 9,
+      "fields": {
+        "action_time": "2025-03-22T23:12:15.398Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "SALL Oumou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 10,
+      "fields": {
+        "action_time": "2025-03-22T23:12:15.398Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "SOW Issa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 11,
+      "fields": {
+        "action_time": "2025-03-22T23:12:15.398Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "ANNE Kende",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 12,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Faye Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 13,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Faye Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 14,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Diop Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 15,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Diop Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 16,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Ndiaye Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 17,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Diop Awa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 18,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Diop Khady",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 19,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Diop Ibrahima",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 20,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Diop Fatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 21,
+      "fields": {
+        "action_time": "2025-03-24T19:47:07.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Ndiaye Khady",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 22,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "42",
+        "object_repr": "NDOUR Moustapha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 23,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "41",
+        "object_repr": "FALL Aicha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 24,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "40",
+        "object_repr": "DIOP Ibrahima",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 25,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "39",
+        "object_repr": "SAMB Mbayang",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 26,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "38",
+        "object_repr": "BADIANE Modou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 27,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "37",
+        "object_repr": "DIATTA Adja",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 28,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "36",
+        "object_repr": "CAMARA Samba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 29,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "35",
+        "object_repr": "NDIAYE Rama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 30,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "34",
+        "object_repr": "SYLLA Mamady",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 31,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "33",
+        "object_repr": "SECK Aminata",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 32,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "32",
+        "object_repr": "DIOP Mame",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 33,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "31",
+        "object_repr": "FAYE Coumba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 34,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "30",
+        "object_repr": "KA Abdoulaye",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 35,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "29",
+        "object_repr": "TOURE Khadija",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 36,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "28",
+        "object_repr": "DIALLO Oumar",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 37,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "27",
+        "object_repr": "GUEYE Aissatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 38,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "26",
+        "object_repr": "SANE Papa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 39,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "NDOYE Rokhaya",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 40,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "DIOP Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 41,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "MBOW Awa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 42,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "SY Alioune",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 43,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "DIENG Sokhna",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 44,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "FALL Cheikh",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 45,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "BA Mariama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 46,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "TOURE Ibrahim",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 47,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "NDIAYE Fatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 48,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "SARR Moussa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 49,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "DIOP Amina",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 50,
+      "fields": {
+        "action_time": "2025-03-24T21:10:43.018Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "ANNE Kende",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 51,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "71",
+        "object_repr": "NDOUR Moustapha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 52,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "70",
+        "object_repr": "FALL Aicha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 53,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "69",
+        "object_repr": "DIOP Ibrahima",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 54,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "68",
+        "object_repr": "SAMB Mbayang",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 55,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "67",
+        "object_repr": "BADIANE Modou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 56,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "66",
+        "object_repr": "DIATTA Adja",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 57,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "65",
+        "object_repr": "CAMARA Samba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 58,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "64",
+        "object_repr": "NDIAYE Rama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 59,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "63",
+        "object_repr": "SYLLA Mamady",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 60,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "62",
+        "object_repr": "SECK Aminata",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 61,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "61",
+        "object_repr": "DIOP Mame",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 62,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "60",
+        "object_repr": "FAYE Coumba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 63,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "59",
+        "object_repr": "KA Abdoulaye",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 64,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "58",
+        "object_repr": "TOURE Khadija",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 65,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "57",
+        "object_repr": "DIALLO Oumar",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 66,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "56",
+        "object_repr": "GUEYE Aissatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 67,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "55",
+        "object_repr": "SANE Papa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 68,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "54",
+        "object_repr": "NDOYE Rokhaya",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 69,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "53",
+        "object_repr": "DIOP Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 70,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "52",
+        "object_repr": "MBOW Awa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 71,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "51",
+        "object_repr": "SY Alioune",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 72,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "50",
+        "object_repr": "DIENG Sokhna",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 73,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "49",
+        "object_repr": "FALL Cheikh",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 74,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "48",
+        "object_repr": "BA Mariama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 75,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "47",
+        "object_repr": "TOURE Ibrahim",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 76,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "46",
+        "object_repr": "NDIAYE Fatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 77,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "45",
+        "object_repr": "SARR Moussa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 78,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "44",
+        "object_repr": "DIOP Amina",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 79,
+      "fields": {
+        "action_time": "2025-03-24T21:23:55.696Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "43",
+        "object_repr": "ANNE Kende",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 80,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.086Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "100",
+        "object_repr": "NDOUR Moustapha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 81,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.086Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "99",
+        "object_repr": "FALL Aicha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 82,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.086Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "98",
+        "object_repr": "DIOP Ibrahima",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 83,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.086Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "97",
+        "object_repr": "SAMB Mbayang",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 84,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.086Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "96",
+        "object_repr": "BADIANE Modou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 85,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.086Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "95",
+        "object_repr": "DIATTA Adja",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 86,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "94",
+        "object_repr": "CAMARA Samba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 87,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "93",
+        "object_repr": "NDIAYE Rama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 88,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "92",
+        "object_repr": "SYLLA Mamady",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 89,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "91",
+        "object_repr": "SECK Aminata",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 90,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "90",
+        "object_repr": "DIOP Mame",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 91,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "89",
+        "object_repr": "FAYE Coumba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 92,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "88",
+        "object_repr": "KA Abdoulaye",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 93,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "87",
+        "object_repr": "TOURE Khadija",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 94,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "86",
+        "object_repr": "DIALLO Oumar",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 95,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "85",
+        "object_repr": "GUEYE Aissatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 96,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "84",
+        "object_repr": "SANE Papa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 97,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "83",
+        "object_repr": "NDOYE Rokhaya",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 98,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "82",
+        "object_repr": "DIOP Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 99,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "81",
+        "object_repr": "MBOW Awa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 100,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "80",
+        "object_repr": "SY Alioune",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 101,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "79",
+        "object_repr": "DIENG Sokhna",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 102,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "78",
+        "object_repr": "FALL Cheikh",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 103,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "77",
+        "object_repr": "BA Mariama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 104,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "76",
+        "object_repr": "TOURE Ibrahim",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 105,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "75",
+        "object_repr": "NDIAYE Fatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 106,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "74",
+        "object_repr": "SARR Moussa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 107,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "73",
+        "object_repr": "DIOP Amina",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 108,
+      "fields": {
+        "action_time": "2025-03-24T21:24:57.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "72",
+        "object_repr": "ANNE Kende",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 109,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "124",
+        "object_repr": "NDOUR Moustapha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 110,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "123",
+        "object_repr": "FALL Aicha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 111,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "122",
+        "object_repr": "DIOP Ibrahima",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 112,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "121",
+        "object_repr": "SAMB Mbayang",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 113,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "120",
+        "object_repr": "BADIANE Modou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 114,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "119",
+        "object_repr": "DIATTA Adja",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 115,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "118",
+        "object_repr": "FAYE Coumba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 116,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "117",
+        "object_repr": "KA Abdoulaye",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 117,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "116",
+        "object_repr": "TOURE Khadija",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 118,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "115",
+        "object_repr": "DIALLO Oumar",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 119,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "114",
+        "object_repr": "GUEYE Aissatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 120,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "113",
+        "object_repr": "SANE Papa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 121,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "112",
+        "object_repr": "NDOYE Rokhaya",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 122,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "111",
+        "object_repr": "DIOP Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 123,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "110",
+        "object_repr": "MBOW Awa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 124,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "109",
+        "object_repr": "SY Alioune",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 125,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "108",
+        "object_repr": "DIENG Sokhna",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 126,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "107",
+        "object_repr": "FALL Cheikh",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 127,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "106",
+        "object_repr": "BA Mariama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 128,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "105",
+        "object_repr": "TOURE Ibrahim",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 129,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "104",
+        "object_repr": "NDIAYE Fatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 130,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "103",
+        "object_repr": "SARR Moussa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 131,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.627Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "102",
+        "object_repr": "DIOP Amina",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 132,
+      "fields": {
+        "action_time": "2025-03-24T21:29:21.627Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "101",
+        "object_repr": "ANNE Kende",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 133,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "153",
+        "object_repr": "NDOUR Moustapha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 134,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "152",
+        "object_repr": "FALL Aicha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 135,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "151",
+        "object_repr": "DIOP Ibrahima",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 136,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "150",
+        "object_repr": "SAMB Mbayang",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 137,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "149",
+        "object_repr": "BADIANE Modou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 138,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "148",
+        "object_repr": "DIATTA Adja",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 139,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "147",
+        "object_repr": "CAMARA Samba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 140,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "146",
+        "object_repr": "NDIAYE Rama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 141,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "145",
+        "object_repr": "SYLLA Mamady",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 142,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "144",
+        "object_repr": "SECK Aminata",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 143,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "143",
+        "object_repr": "DIOP Mame",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 144,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "142",
+        "object_repr": "FAYE Coumba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 145,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "141",
+        "object_repr": "KA Abdoulaye",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 146,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "140",
+        "object_repr": "TOURE Khadija",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 147,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "139",
+        "object_repr": "DIALLO Oumar",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 148,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "138",
+        "object_repr": "GUEYE Aissatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 149,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "137",
+        "object_repr": "SANE Papa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 150,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "136",
+        "object_repr": "NDOYE Rokhaya",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 151,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "135",
+        "object_repr": "DIOP Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 152,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "134",
+        "object_repr": "MBOW Awa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 153,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "133",
+        "object_repr": "SY Alioune",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 154,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "132",
+        "object_repr": "DIENG Sokhna",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 155,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "131",
+        "object_repr": "FALL Cheikh",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 156,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "130",
+        "object_repr": "BA Mariama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 157,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "129",
+        "object_repr": "TOURE Ibrahim",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 158,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "128",
+        "object_repr": "NDIAYE Fatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 159,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "127",
+        "object_repr": "SARR Moussa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 160,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "126",
+        "object_repr": "DIOP Amina",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 161,
+      "fields": {
+        "action_time": "2025-03-24T21:37:35.293Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "125",
+        "object_repr": "ANNE Kende",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 162,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.897Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "182",
+        "object_repr": "NDOUR Moustapha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 163,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "181",
+        "object_repr": "FALL Aicha",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 164,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "180",
+        "object_repr": "DIOP Ibrahima",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 165,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "179",
+        "object_repr": "SAMB Mbayang",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 166,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "178",
+        "object_repr": "BADIANE Modou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 167,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "177",
+        "object_repr": "DIATTA Adja",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 168,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "176",
+        "object_repr": "CAMARA Samba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 169,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "175",
+        "object_repr": "NDIAYE Rama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 170,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "174",
+        "object_repr": "SYLLA Mamady",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 171,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "173",
+        "object_repr": "SECK Aminata",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 172,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "172",
+        "object_repr": "DIOP Mame",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 173,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "171",
+        "object_repr": "FAYE Coumba",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 174,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "170",
+        "object_repr": "KA Abdoulaye",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 175,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "169",
+        "object_repr": "TOURE Khadija",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 176,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "168",
+        "object_repr": "DIALLO Oumar",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 177,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "167",
+        "object_repr": "GUEYE Aissatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 178,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "166",
+        "object_repr": "SANE Papa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 179,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "165",
+        "object_repr": "NDOYE Rokhaya",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 180,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "164",
+        "object_repr": "DIOP Mamadou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 181,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "163",
+        "object_repr": "MBOW Awa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 182,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "162",
+        "object_repr": "SY Alioune",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 183,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "161",
+        "object_repr": "DIENG Sokhna",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 184,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "160",
+        "object_repr": "FALL Cheikh",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 185,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "159",
+        "object_repr": "BA Mariama",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 186,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "158",
+        "object_repr": "TOURE Ibrahim",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 187,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "157",
+        "object_repr": "NDIAYE Fatou",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 188,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "156",
+        "object_repr": "SARR Moussa",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 189,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "155",
+        "object_repr": "DIOP Amina",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 190,
+      "fields": {
+        "action_time": "2025-03-24T21:38:25.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "154",
+        "object_repr": "ANNE Kende",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 191,
+      "fields": {
+        "action_time": "2025-03-24T23:25:20.252Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "ANNE Kende (Candidat)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 192,
+      "fields": {
+        "action_time": "2025-03-24T23:25:50.734Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "ANNE Kende (Candidat)",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 193,
+      "fields": {
+        "action_time": "2025-03-25T00:08:50.280Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "ANNE Kende (Candidat)",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 194,
+      "fields": {
+        "action_time": "2025-03-25T01:00:30.530Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "ANNE Kende (Candidat)",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 195,
+      "fields": {
+        "action_time": "2025-03-25T02:37:36.719Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "NDOUR parraine ANNE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 196,
+      "fields": {
+        "action_time": "2025-03-25T02:37:52.733Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "SAMB parraine ANNE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 197,
+      "fields": {
+        "action_time": "2025-03-25T02:58:17.935Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "DIOP Mamadou (Candidat)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 198,
+      "fields": {
+        "action_time": "2025-03-25T02:58:37.719Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "NDIAYE parraine DIOP",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 199,
+      "fields": {
+        "action_time": "2025-03-25T12:41:15.912Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "CAMARA parraine ANNE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 200,
+      "fields": {
+        "action_time": "2025-03-25T12:41:32.101Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "SANE parraine DIOP",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "password": "pbkdf2_sha256$870000$zOleajMHIVuaqbxesmv6Dk$fYQLw5wZfn2bCEe/8oZB3z1m0FWVrpWEKzlGc3VwRYQ=",
+        "last_login": "2025-03-28T00:46:21.270Z",
+        "is_superuser": true,
+        "username": "kendeanne",
+        "first_name": "",
+        "last_name": "",
+        "email": "kendeanne1998@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-03-20T03:03:31.875Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 3,
+      "fields": {
+        "password": "pbkdf2_sha256$870000$QVFlvfR3I6iPA2bqWITSBK$xD8RIeIXL/q+Abt6APw+NE8vzZS8GIDVxhIyqT3hYUY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "biranewade",
+        "first_name": "WADE",
+        "last_name": "",
+        "email": "biranewade@esp.sn",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-03-22T02:18:04.284Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "nc0dyyo6t88fd47v7z88he596qiz1s66",
+      "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyEslQoevfcbyC67laqBpLQn47_bJj3oHOe9mbeKuC45rk3mOLG6KlCn344wPaXsgB9Y7lWnWpZ5Ir0r-qBND5XldTvcv4OMLW_rYMB3PXbJjxey2BsGccmC98E5gBRYghNDYjpHyCMEBo9ndluIvFWfL8_dN58:1tx5qA:ZVNRjXMVgEzENL99J6RFKukxa9uyoNghWfn_r_TkvqY",
+        "expire_date": "2025-04-08T15:05:18.486Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "ramfxcsd9cezc44f4exrxeng6moxowxg",
+      "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyEslQoevfcbyC67laqBpLQn47_bJj3oHOe9mbeKuC45rk3mOLG6KlCn344wPaXsgB9Y7lWnWpZ5Ir0r-qBND5XldTvcv4OMLW_rYMB3PXbJjxey2BsGccmC98E5gBRYghNDYjpHyCMEBo9ndluIvFWfL8_dN58:1tvoFF:cC6kfIF-fVK7i92WAzqXXKo7EqqxMDbXwRlT3uetmRU",
+        "expire_date": "2025-04-05T02:05:53.071Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 183,
+      "fields": {
+        "cin": "1648199800316",
+        "numero_electeur": "105192481",
+        "nom": "ANNE",
+        "prenom": "Kende",
+        "date_naissance": "1998-03-15",
+        "lieu_naissance": "Tivaouane",
+        "bureau_vote": "Ecole 5 Bureau 6",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 184,
+      "fields": {
+        "cin": "2874300123456",
+        "numero_electeur": "987654321",
+        "nom": "DIOP",
+        "prenom": "Amina",
+        "date_naissance": "1985-07-22",
+        "lieu_naissance": "Dakar",
+        "bureau_vote": "Ecole 1 Bureau 3",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 185,
+      "fields": {
+        "cin": "1987654321098",
+        "numero_electeur": "123456789",
+        "nom": "SARR",
+        "prenom": "Moussa",
+        "date_naissance": "1990-11-30",
+        "lieu_naissance": "Thies",
+        "bureau_vote": "Ecole 2 Bureau 4",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 186,
+      "fields": {
+        "cin": "2123456789012",
+        "numero_electeur": "456789123",
+        "nom": "NDIAYE",
+        "prenom": "Fatou",
+        "date_naissance": "1988-05-14",
+        "lieu_naissance": "SaintLouis",
+        "bureau_vote": "Ecole 7 Bureau 1",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 187,
+      "fields": {
+        "cin": "1234567890123",
+        "numero_electeur": "789456123",
+        "nom": "TOURE",
+        "prenom": "Ibrahim",
+        "date_naissance": "1975-12-05",
+        "lieu_naissance": "Kaolack",
+        "bureau_vote": "Ecole 3 Bureau 5",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 188,
+      "fields": {
+        "cin": "2345678901234",
+        "numero_electeur": "321654987",
+        "nom": "BA",
+        "prenom": "Mariama",
+        "date_naissance": "1995-09-18",
+        "lieu_naissance": "Rufisque",
+        "bureau_vote": "Ecole 4 Bureau 2",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 189,
+      "fields": {
+        "cin": "2098765432109",
+        "numero_electeur": "654321987",
+        "nom": "FALL",
+        "prenom": "Cheikh",
+        "date_naissance": "1982-04-25",
+        "lieu_naissance": "Mbour",
+        "bureau_vote": "Ecole 6 Bureau 7",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 190,
+      "fields": {
+        "cin": "2876543210987",
+        "numero_electeur": "987123456",
+        "nom": "DIENG",
+        "prenom": "Sokhna",
+        "date_naissance": "1999-08-12",
+        "lieu_naissance": "Diourbel",
+        "bureau_vote": "Ecole 8 Bureau 8",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 191,
+      "fields": {
+        "cin": "1928374651238",
+        "numero_electeur": "123789456",
+        "nom": "SY",
+        "prenom": "Alioune",
+        "date_naissance": "1993-02-28",
+        "lieu_naissance": "Louga",
+        "bureau_vote": "Ecole 9 Bureau 9",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 192,
+      "fields": {
+        "cin": "1827364591234",
+        "numero_electeur": "456123789",
+        "nom": "MBOW",
+        "prenom": "Awa",
+        "date_naissance": "1987-06-15",
+        "lieu_naissance": "Matam",
+        "bureau_vote": "Ecole 10 Bureau 10",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 193,
+      "fields": {
+        "cin": "1122334455667",
+        "numero_electeur": "789321654",
+        "nom": "DIOP",
+        "prenom": "Mamadou",
+        "date_naissance": "2000-10-10",
+        "lieu_naissance": "Ziguinchor",
+        "bureau_vote": "Ecole 11 Bureau 11",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 194,
+      "fields": {
+        "cin": "1212121212121",
+        "numero_electeur": "852963741",
+        "nom": "NDOYE",
+        "prenom": "Rokhaya",
+        "date_naissance": "1996-01-20",
+        "lieu_naissance": "Kedougou",
+        "bureau_vote": "Ecole 12 Bureau 12",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 195,
+      "fields": {
+        "cin": "1313131313131",
+        "numero_electeur": "741852963",
+        "nom": "SANE",
+        "prenom": "Papa",
+        "date_naissance": "1980-03-03",
+        "lieu_naissance": "Tambacounda",
+        "bureau_vote": "Ecole 13 Bureau 13",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 196,
+      "fields": {
+        "cin": "1414141414141",
+        "numero_electeur": "369258147",
+        "nom": "GUEYE",
+        "prenom": "Aissatou",
+        "date_naissance": "1992-07-07",
+        "lieu_naissance": "Kolda",
+        "bureau_vote": "Ecole 14 Bureau 14",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 197,
+      "fields": {
+        "cin": "1515151515151",
+        "numero_electeur": "258147369",
+        "nom": "DIALLO",
+        "prenom": "Oumar",
+        "date_naissance": "1978-09-09",
+        "lieu_naissance": "Fatick",
+        "bureau_vote": "Ecole 15 Bureau 15",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 198,
+      "fields": {
+        "cin": "1616161616161",
+        "numero_electeur": "147258369",
+        "nom": "TOURE",
+        "prenom": "Khadija",
+        "date_naissance": "1984-04-04",
+        "lieu_naissance": "RichardToll",
+        "bureau_vote": "Ecole 16 Bureau 16",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 199,
+      "fields": {
+        "cin": "1717171717171",
+        "numero_electeur": "963852741",
+        "nom": "KA",
+        "prenom": "Abdoulaye",
+        "date_naissance": "1991-05-05",
+        "lieu_naissance": "Niague",
+        "bureau_vote": "Ecole 17 Bureau 17",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 200,
+      "fields": {
+        "cin": "1818181818181",
+        "numero_electeur": "852741963",
+        "nom": "FAYE",
+        "prenom": "Coumba",
+        "date_naissance": "1986-12-12",
+        "lieu_naissance": "Bignona",
+        "bureau_vote": "Ecole 18 Bureau 18",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 201,
+      "fields": {
+        "cin": "1919191919191",
+        "numero_electeur": "741963852",
+        "nom": "DIOP",
+        "prenom": "Mame",
+        "date_naissance": "1997-11-11",
+        "lieu_naissance": "Gossas",
+        "bureau_vote": "Ecole 19 Bureau 19",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 202,
+      "fields": {
+        "cin": "2020202020202",
+        "numero_electeur": "159357486",
+        "nom": "SECK",
+        "prenom": "Aminata",
+        "date_naissance": "1989-08-08",
+        "lieu_naissance": "Pikine",
+        "bureau_vote": "Ecole 20 Bureau 20",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 203,
+      "fields": {
+        "cin": "2121212121212",
+        "numero_electeur": "357159486",
+        "nom": "SYLLA",
+        "prenom": "Mamady",
+        "date_naissance": "1970-10-01",
+        "lieu_naissance": "Guediawaye",
+        "bureau_vote": "Ecole 21 Bureau 21",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 204,
+      "fields": {
+        "cin": "2222222222222",
+        "numero_electeur": "486357159",
+        "nom": "NDIAYE",
+        "prenom": "Rama",
+        "date_naissance": "1994-06-06",
+        "lieu_naissance": "Bargny",
+        "bureau_vote": "Ecole 22 Bureau 22",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 205,
+      "fields": {
+        "cin": "2323232323232",
+        "numero_electeur": "753159264",
+        "nom": "CAMARA",
+        "prenom": "Samba",
+        "date_naissance": "1983-07-17",
+        "lieu_naissance": "Joal",
+        "bureau_vote": "Ecole 23 Bureau 23",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 206,
+      "fields": {
+        "cin": "2424242424242",
+        "numero_electeur": "159264753",
+        "nom": "DIATTA",
+        "prenom": "Adja",
+        "date_naissance": "2001-09-19",
+        "lieu_naissance": "Nguekokh",
+        "bureau_vote": "Ecole 24 Bureau 24",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 207,
+      "fields": {
+        "cin": "2525252525252",
+        "numero_electeur": "264753159",
+        "nom": "BADIANE",
+        "prenom": "Modou",
+        "date_naissance": "1999-02-28",
+        "lieu_naissance": "Kebemer",
+        "bureau_vote": "Ecole 25 Bureau 25",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 208,
+      "fields": {
+        "cin": "2626262626262",
+        "numero_electeur": "753264159",
+        "nom": "SAMB",
+        "prenom": "Mbayang",
+        "date_naissance": "1981-05-25",
+        "lieu_naissance": "Dagana",
+        "bureau_vote": "Ecole 26 Bureau 26",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 209,
+      "fields": {
+        "cin": "2727272727272",
+        "numero_electeur": "369147258",
+        "nom": "DIOP",
+        "prenom": "Ibrahima",
+        "date_naissance": "1976-04-14",
+        "lieu_naissance": "Podor",
+        "bureau_vote": "Ecole 27 Bureau 27",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 210,
+      "fields": {
+        "cin": "2828282828282",
+        "numero_electeur": "147369258",
+        "nom": "FALL",
+        "prenom": "Aicha",
+        "date_naissance": "1993-03-21",
+        "lieu_naissance": "Ndioum",
+        "bureau_vote": "Ecole 28 Bureau 28",
+        "sexe": "F"
+      }
+    },
+    {
+      "model": "parrainage_backend.electeur",
+      "pk": 211,
+      "fields": {
+        "cin": "2929292929292",
+        "numero_electeur": "258369147",
+        "nom": "NDOUR",
+        "prenom": "Moustapha",
+        "date_naissance": "1988-08-08",
+        "lieu_naissance": "Thiadiaye",
+        "bureau_vote": "Ecole 29 Bureau 29",
+        "sexe": "M"
+      }
+    },
+    {
+      "model": "parrainage_backend.candidat",
+      "pk": 5,
+      "fields": {
+        "electeur": 183,
+        "parti_politique": "PASTEF",
+        "email": "kendeanne@esp.sn",
+        "telephone": "781251509",
+        "date_enregistrement": "2025-03-25T01:03:40.468Z",
+        "code": "2ZZB3GE0U3",
+        "slogan": "JJJ",
+        "site_web": "www.jjj.com"
+      }
+    },
+    {
+      "model": "parrainage_backend.candidat",
+      "pk": 6,
+      "fields": {
+        "electeur": 193,
+        "parti_politique": "PDS",
+        "email": "mamadoudiop@esp.sn",
+        "telephone": "776774321",
+        "date_enregistrement": "2025-03-25T02:58:17.933Z",
+        "code": "UREE9O2FYE",
+        "slogan": "Pa bi rek",
+        "site_web": "www.pabirek.com"
+      }
+    },
+    {
+      "model": "parrainage_backend.candidat",
+      "pk": 7,
+      "fields": {
+        "electeur": 190,
+        "parti_politique": "La solution",
+        "email": "sokhnadieng@gmail.com",
+        "telephone": "77 777 77 77",
+        "date_enregistrement": "2025-03-30T01:56:29.582Z",
+        "code": "AG7HQC5T6V",
+        "slogan": "le travail",
+        "site_web": "www.lasolution.com"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 3,
+      "fields": {
+        "electeur": 211,
+        "candidat": 5,
+        "date_parrainage": "2025-03-25T02:37:36.716Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 4,
+      "fields": {
+        "electeur": 208,
+        "candidat": 5,
+        "date_parrainage": "2025-03-25T02:37:52.730Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 5,
+      "fields": {
+        "electeur": 204,
+        "candidat": 6,
+        "date_parrainage": "2025-03-25T02:58:37.716Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 6,
+      "fields": {
+        "electeur": 205,
+        "candidat": 5,
+        "date_parrainage": "2025-03-25T12:41:15.907Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 7,
+      "fields": {
+        "electeur": 195,
+        "candidat": 6,
+        "date_parrainage": "2025-03-25T12:41:32.097Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 8,
+      "fields": {
+        "electeur": 210,
+        "candidat": 6,
+        "date_parrainage": "2025-03-28T00:49:09.974Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 9,
+      "fields": {
+        "electeur": 207,
+        "candidat": 6,
+        "date_parrainage": "2025-03-28T02:15:03.567Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 10,
+      "fields": {
+        "electeur": 192,
+        "candidat": 6,
+        "date_parrainage": "2025-03-28T05:46:36.569Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 11,
+      "fields": {
+        "electeur": 183,
+        "candidat": 5,
+        "date_parrainage": "2025-03-28T20:06:02.049Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.parrainage",
+      "pk": 12,
+      "fields": {
+        "electeur": 200,
+        "candidat": 6,
+        "date_parrainage": "2025-03-30T01:25:09.966Z"
+      }
+    },
+    {
+      "model": "parrainage_backend.agent",
+      "pk": 1,
+      "fields": {
+        "user": 3,
+        "nom": "WADE",
+        "prenom": "Birane",
+        "role": "agent_simple"
+      }
+    },
+    {
+      "model": "parrainage_backend.historiqueimportation",
+      "pk": 21,
+      "fields": {
+        "user_name": "anne",
+        "user_prenom": "kende",
+        "user_ip": "192.168.1.97",
+        "timestamp": "2025-03-30T15:19:54.876Z",
+        "message": "Importation ÃchouÃe : La table Electeur contient dÃjÃ des donnÃes."
+      }
+    },
+    {
+      "model": "parrainage_backend.periodeparrainage",
+      "pk": 2,
+      "fields": {
+        "date_debut": "2025-03-28T00:00:00Z",
+        "date_fin": "2025-09-28T00:00:00Z",
+        "est_active": true
+      }
+    },
+    {
+      "model": "parrainage_backend.configuration",
+      "pk": 2,
+      "fields": {
+        "parrainages_requis": 50,
+        "date_mise_a_jour": "2025-03-26T00:00:00Z"
+      }
+    }
+    ]
+    

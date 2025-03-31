@@ -11,13 +11,21 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
-from dotenv import load_dotenv
-import os
+#from dotenv import load_dotenv
+#import os
+import environ
 
+#env = environ.Env()
 
+#environ.Env.read_env()
+
+#DATABASES = {'default': env.db('DATABASE_URL')}
+
+#DEBUG = env.bool('DEBUG', default=False)
+#SECRET_KEY = env.str('SECRET_KEY')
 
 # Charge les variables depuis .env
-load_dotenv()
+#load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,13 +35,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'django-insecure-1ryv=$gt9*b=)%nc*p&7gf5ox%kt@44q(+^i8nrh&!+i2fao_c'
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = 'django-insecure-1ryv=$gt9*b=)%nc*p&7gf5ox%kt@44q(+^i8nrh&!+i2fao_c'
+#SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -97,21 +105,31 @@ WSGI_APPLICATION = 'parrainages.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+
+       # 'ENGINE': os.getenv('DB_ENGINE'),
+        #'NAME': BASE_DIR / 'db.sqlite3',
+        #'NAME': os.getenv('DB_NAME'),
+        #'USER': os.getenv('DB_USER'),  # Remplace par ton utilisateur MySQL
+        #'PASSWORD': os.getenv('DB_PASSWORD'),  # Remplace par ton mot de passe MySQL
+        #'HOST': os.getenv('DB_HOST'),  # Laisse 'localhost' si MySQL est en local
+        #'PORT': os.getenv('DB_PORT'),  # Port MySQL par défaut
+#    }
+#}
+
+
+
 DATABASES = {
     'default': {
-        'ENGINE': os.getenv('DB_ENGINE'),
-        #'NAME': BASE_DIR / 'db.sqlite3',
-        'NAME': os.getenv('DB_NAME'),
-        'USER': os.getenv('DB_USER'),  # Remplace par ton utilisateur MySQL
-        'PASSWORD': os.getenv('DB_PASSWORD'),  # Remplace par ton mot de passe MySQL
-        'HOST': os.getenv('DB_HOST'),  # Laisse 'localhost' si MySQL est en local
-        'PORT': os.getenv('DB_PORT'),  # Port MySQL par défaut
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgresdb_dgdj',  # Nom de votre DB
+        'USER': 'postgresdb_dgdj_user',
+        'PASSWORD': 'hMaegjA4ac6sjpGV5oEa7l3fsmwY4yzI',  # Mot de passe Render
+        'HOST': 'dpg-cvlf5kogjchc73bmqdr0-a',
+        'PORT': '5432',  # Port par défaut
     }
 }
-
-
-
-
 
 
 

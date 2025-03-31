@@ -11,8 +11,8 @@ __pycache__/
 
 # Environnement virtuel
 venv/
-.env/
-.env
+
+
 # IDE
 .vscode/
 .idea/
