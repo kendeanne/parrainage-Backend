@@ -102,6 +102,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'parrainage_backend.middleware.PeriodeMiddleware',
+    'parrainage_backend.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'parrainages.urls'
