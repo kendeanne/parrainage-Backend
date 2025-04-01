@@ -60,8 +60,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://parrainage-frontend-eight.vercel.app/api/",
-    "http://localhost:4200",
+    "*"
         
 ]
 
