@@ -77,7 +77,7 @@ CORS_ALLOW_METHODS = [
 
 ]
 
-CORS_ALLOW_CREDENTIALS = True
+
 
 
 
