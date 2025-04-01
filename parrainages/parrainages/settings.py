@@ -46,8 +46,7 @@ ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
-INSTALLED_APPS = [
-    'corsheaders',  
+INSTALLED_APPS = [  
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -57,12 +56,10 @@ INSTALLED_APPS = [
     'parrainage_backend',
     'rest_framework',
     'rest_framework_simplejwt',
+    'corsheaders',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "*"
-        
-]
+CORS_ORIGIN_ALLOW_ALL =True
 
 from corsheaders.defaults import default_headers
 CORS_ALLOW_HEADERS = list(default_headers) + [
@@ -82,9 +79,7 @@ CORS_ALLOW_METHODS = [
 
 CORS_ALLOW_CREDENTIALS = True
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://parrainage-frontend-eight.vercel.app/api/",
-]
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
