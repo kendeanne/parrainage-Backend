@@ -41,7 +41,7 @@ SECRET_KEY = 'django-insecure-1ryv=$gt9*b=)%nc*p&7gf5ox%kt@44q(+^i8nrh&!+i2fao_c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://parrainage-backend-zqai.onrender.com", "http://localhost:4200"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
