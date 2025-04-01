@@ -64,7 +64,13 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
         
 ]
-CORS_ALLOW_ALL_ORIGINS = True
+
+from corsheaders.defaults import default_headers
+CORS_ALLOW_HEADERS = list(default_headers) + [
+    "Authorization",
+    "X-Custom-Header",
+]
+
 CORS_ALLOW_METHODS = [
     "DELETE",
     "GET",
@@ -79,11 +85,6 @@ CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = [
     "https://parrainage-frontend-eight.vercel.app/api/",
-]
-
-CORS_ALLOW_HEADERS = [
-    'content-type',
-    'authorization',
 ]
 
 REST_FRAMEWORK = {
