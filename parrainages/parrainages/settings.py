@@ -59,11 +59,12 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "https://parrainage-frontend-eight.vercel.app",
-    "http://localhost:4200",
+#CORS_ALLOWED_ORIGINS = [
+#    "https://parrainage-frontend-eight.vercel.app",
+#    "http://localhost:4200",
         
-]
+#]
+CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_CREDENTIALS = True
 
