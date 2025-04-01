@@ -78,7 +78,12 @@ CORS_ALLOW_METHODS = [
 CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://parrainage-frontend-eight.vercel.app",
+    "https://parrainage-frontend-eight.vercel.app/api/",
+]
+
+CORS_ALLOW_HEADERS = [
+    'content-type',
+    'authorization',
 ]
 
 REST_FRAMEWORK = {
