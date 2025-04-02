@@ -83,7 +83,7 @@ REST_FRAMEWORK = {
 }
 #CORS_ALLOW_ALL_ORIGINS = True  # Autoriser toutes les origines (peut être restreint)
 CORS_ORIGIN_WHITELIST = [
-    "https://parrainage-frontend-eight.vercel.app/api",
+    "https://parrainage-frontend-eight.vercel.app",
     "http://localhost:4200",
 ]
 CORS_ALLOW_CREDENTIALS = True
