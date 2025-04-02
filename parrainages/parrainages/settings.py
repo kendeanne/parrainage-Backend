@@ -41,13 +41,12 @@ SECRET_KEY = 'django-insecure-1ryv=$gt9*b=)%nc*p&7gf5ox%kt@44q(+^i8nrh&!+i2fao_c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'corsheaders',  
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -57,7 +56,7 @@ INSTALLED_APPS = [
     'parrainage_backend',
     'rest_framework',
     'rest_framework_simplejwt',
-    
+    'corsheaders',  
 ]
 
 #CORS_ALLOWED_ORIGINS = [
@@ -82,24 +81,28 @@ REST_FRAMEWORK = {
     ),
 }
 #CORS_ALLOW_ALL_ORIGINS = True  # Autoriser toutes les origines (peut être restreint)
-CORS_ORIGIN_WHITELIST = [
+
+MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'parrainage_backend.middleware.PeriodeMiddleware',
+]
+
+ALLOWED_HOSTS = ["*"]
+
+CORS_ALLOWED_ORIGINS = [
     "https://parrainage-frontend-eight.vercel.app",
     "http://localhost:4200",
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
 CORS_ALLOW_HEADERS = ["Content-Type", "Authorization", "X-Requested-With"]
-MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'parrainage_backend.middleware.PeriodeMiddleware',
-]
 
 ROOT_URLCONF = 'parrainages.urls'
 
