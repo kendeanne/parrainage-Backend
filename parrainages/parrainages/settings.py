@@ -46,7 +46,8 @@ ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
-INSTALLED_APPS = [  
+INSTALLED_APPS = [
+    'corsheaders',  
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -56,10 +57,13 @@ INSTALLED_APPS = [
     'parrainage_backend',
     'rest_framework',
     'rest_framework_simplejwt',
-    'corsheaders',
+    
 ]
 
-CORS_ORIGIN_ALLOW_ALL =True
+CORS_ALLOWED_ORIGINS = [
+    "https://parrainage-frontend-eight.vercel.app/api/",
+    "http://localhost:4200"
+]
 
 from corsheaders.defaults import default_headers
 CORS_ALLOW_HEADERS = list(default_headers) + [
@@ -97,7 +101,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'parrainage_backend.middleware.PeriodeMiddleware',
-    'parrainage_backend.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'parrainages.urls'
