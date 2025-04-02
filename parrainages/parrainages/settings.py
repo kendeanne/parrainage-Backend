@@ -81,7 +81,11 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 }
-CORS_ALLOW_ALL_ORIGINS = True  # Autoriser toutes les origines (peut être restreint)
+#CORS_ALLOW_ALL_ORIGINS = True  # Autoriser toutes les origines (peut être restreint)
+CORS_ORIGIN_WHITELIST = [
+    "https://parrainage-frontend-eight.vercel.app/api",
+    "http://localhost:4200",
+]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
 CORS_ALLOW_HEADERS = ["Content-Type", "Authorization", "X-Requested-With"]
