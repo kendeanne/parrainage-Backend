@@ -94,7 +94,7 @@ MIDDLEWARE = [
     'parrainage_backend.middleware.PeriodeMiddleware',
 ]
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["parrainage-backend-django-zqai.onrender.com", "localhost"]
 
 CORS_ALLOWED_ORIGINS = [
     "https://parrainage-frontend-eight.vercel.app",
