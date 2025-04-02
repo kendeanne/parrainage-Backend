@@ -94,15 +94,14 @@ MIDDLEWARE = [
     'parrainage_backend.middleware.PeriodeMiddleware',
 ]
 
-ALLOWED_HOSTS = ["parrainage-backend-django-zqai.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["*"]
 
-CORS_ALLOWED_ORIGINS = [
-    "https://parrainage-frontend-eight.vercel.app",
-    "http://localhost:4200",
-]
+
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_HEADERS = ['*'] 
 CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
-CORS_ALLOW_HEADERS = ["Content-Type", "Authorization", "X-Requested-With"]
+
 
 ROOT_URLCONF = 'parrainages.urls'
 
