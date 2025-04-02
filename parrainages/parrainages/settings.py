@@ -47,7 +47,7 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
-    'corsheaders',  
+#    'corsheaders',  
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -60,26 +60,17 @@ INSTALLED_APPS = [
     
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "https://parrainage-frontend-eight.vercel.app/api",
-    "http://localhost:4200"
-]
+#CORS_ALLOWED_ORIGINS = [
+#    "https://parrainage-frontend-eight.vercel.app/api",
+#    "http://localhost:4200"
+#]
 
-from corsheaders.defaults import default_headers
-CORS_ALLOW_HEADERS = list(default_headers) + [
-    "Authorization",
-    "X-Custom-Header",
-]
+#from corsheaders.defaults import default_headers
+#CORS_ALLOW_HEADERS = list(default_headers) + [
+#    "Authorization",
+#    "X-Custom-Header",
+#]
 
-CORS_ALLOW_METHODS = [
-    "DELETE",
-    "GET",
-    "OPTIONS",
-    "PATCH",
-    "POST",
-    "PUT",
-
-]
 
 
 
@@ -92,7 +83,7 @@ REST_FRAMEWORK = {
 }
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
+#    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
