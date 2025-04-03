@@ -47,6 +47,7 @@ DEBUG = False
 # Application definition
 
 INSTALLED_APPS = [
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -56,11 +57,11 @@ INSTALLED_APPS = [
     'parrainage_backend',
     'rest_framework',
     'rest_framework_simplejwt',
-    'corsheaders',  
+      
 ]
 
 #CORS_ALLOWED_ORIGINS = [
-#    "https://parrainage-frontend-eight.vercel.app/api",
+#    "https://parrainage-frontend-eight.vercel.app",
 #    "http://localhost:4200"
 #]
 
@@ -100,11 +101,14 @@ ALLOWED_HOSTS = ["*"]
 
 ROOT_URLCONF = 'parrainages.urls'
 
-
-CORS_ALLOW_ALL_ORIGINS : True
+CORS_ALLOWED_ORIGINS = [
+    "https://parrainage-frontend-eight.vercel.app",
+    "http://localhost:4200"
+]
+#CORS_ALLOW_ALL_ORIGINS : True
 CORS_ALLOW_CREDENTIALS = True
 
-CORS_ALLOW_METHODS = ("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
+CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
 
 CORS_ALLOW_HEADERS = (
     "accept",
