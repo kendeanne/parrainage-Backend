@@ -39,7 +39,7 @@ SECRET_KEY = 'django-insecure-1ryv=$gt9*b=)%nc*p&7gf5ox%kt@44q(+^i8nrh&!+i2fao_c
 #SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 
@@ -91,8 +91,8 @@ MIDDLEWARE = [
     'parrainage_backend.middleware.PeriodeMiddleware',
 ]
 
-ALLOWED_HOSTS = ["parrainage-backend-zqai.onrender.com",
-                 "localhost",
+ALLOWED_HOSTS = ["https://parrainage-backend-zqai.onrender.com",
+                 "http://localhost:4200",
                  ]
 
 
