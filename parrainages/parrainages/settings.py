@@ -92,7 +92,7 @@ MIDDLEWARE = [
 ]
 
 ALLOWED_HOSTS = ["https://parrainage-backend-zqai.onrender.com",
-                 "http://localhost:4200",
+                 
                  ]
 
 
