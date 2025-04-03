@@ -92,7 +92,7 @@ MIDDLEWARE = [
 ]
 
 ALLOWED_HOSTS = ["parrainage-backend-zqai.onrender.com",
-                 
+                "parrainage-frontend-eight.vercel.app" 
                  ]
 
 
