@@ -47,7 +47,7 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
- #   'corsheaders',
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -60,10 +60,6 @@ INSTALLED_APPS = [
       
 ]
 
-#CORS_ALLOWED_ORIGINS = [
-#    "https://parrainage-frontend-eight.vercel.app",
-#    "http://localhost:4200"
-#]
 
 #from corsheaders.defaults import default_headers
 #CORS_ALLOW_HEADERS = list(default_headers) + [
@@ -84,7 +80,7 @@ REST_FRAMEWORK = {
 #CORS_ALLOW_ALL_ORIGINS = True  # Autoriser toutes les origines (peut être restreint)
 
 MIDDLEWARE = [
-   # 'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -103,9 +99,16 @@ ALLOWED_HOSTS = ["parrainage-backend-zqai.onrender.com",
 
 ROOT_URLCONF = 'parrainages.urls'
 
-CORS_ALLOW_ALL_ORIGINS = True
+#CORS_ALLOW_ALL_ORIGINS = True
 
 #CORS_ALLOW_CREDENTIALS = True
+
+
+CORS_ALLOWED_ORIGINS = [
+    "parrainage-frontend-eight.vercel.app",
+    
+]
+
 
 CORS_ALLOW_METHODS = [
     "GET",
