@@ -105,7 +105,7 @@ ROOT_URLCONF = 'parrainages.urls'
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://parrainage-frontend-eight.vercel.app",
+    "parrainage-frontend-eight.vercel.app",
     
 ]
 
