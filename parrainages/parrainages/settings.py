@@ -39,7 +39,7 @@ SECRET_KEY = 'django-insecure-1ryv=$gt9*b=)%nc*p&7gf5ox%kt@44q(+^i8nrh&!+i2fao_c
 #SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 
@@ -211,10 +211,10 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-    "https://parrainage-frontend-eight.vercel.app",
-    "http://localhost:4200"
-]
+#CORS_ALLOWED_ORIGINS = [
+#    "https://parrainage-frontend-eight.vercel.app",
+#    "http://localhost:4200"
+#]
 
 
-#CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
