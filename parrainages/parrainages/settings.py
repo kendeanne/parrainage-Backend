@@ -101,23 +101,20 @@ ALLOWED_HOSTS = ["*"]
 
 ROOT_URLCONF = 'parrainages.urls'
 
-CORS_ALLOWED_ORIGINS = [
-    "https://parrainage-frontend-eight.vercel.app",
-    "http://localhost:4200"
-]
-#CORS_ALLOW_ALL_ORIGINS : True
-CORS_ALLOW_CREDENTIALS = True
 
-CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
 
-CORS_ALLOW_HEADERS = (
-    "accept",
-    "authorization",
-    "content-type",
-    "user-agent",
-    "x-csrftoken",
-    "x-requested-with",
-)
+#CORS_ALLOW_CREDENTIALS = True
+
+#CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
+
+#CORS_ALLOW_HEADERS = (
+#    "accept",
+#    "authorization",
+#    "content-type",
+#    "user-agent",
+#    "x-csrftoken",
+#    "x-requested-with",
+#)
 
 
 
@@ -213,3 +210,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CORS_ALLOWED_ORIGINS = [
+    "https://parrainage-frontend-eight.vercel.app",
+    "http://localhost:4200"
+]
+
+
+#CORS_ALLOW_ALL_ORIGINS = True
