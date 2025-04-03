@@ -95,7 +95,9 @@ MIDDLEWARE = [
     'parrainage_backend.middleware.PeriodeMiddleware',
 ]
 
-ALLOWED_HOSTS = ["parrainage-backend-zqai.onrender.com"]
+ALLOWED_HOSTS = ["parrainage-backend-zqai.onrender.com",
+                 "localhost",
+                 ]
 
 
 
