@@ -105,7 +105,6 @@ ROOT_URLCONF = 'parrainages.urls'
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://parrainage-backend-zqai.onrender.com/api",
     "https://parrainage-frontend-eight.vercel.app",
     
 ]
