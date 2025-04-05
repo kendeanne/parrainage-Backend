@@ -91,9 +91,7 @@ MIDDLEWARE = [
     'parrainage_backend.middleware.PeriodeMiddleware',
 ]
 
-ALLOWED_HOSTS = ["parrainage-backend-zqai.onrender.com",
-                "parrainage-frontend-eight.vercel.app" 
-                 ]
+ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = ["*"]
 
