@@ -95,7 +95,7 @@ ALLOWED_HOSTS = ["parrainage-backend-zqai.onrender.com",
                 "parrainage-frontend-eight.vercel.app" 
                  ]
 
-
+CSRF_TRUSTED_ORIGINS = ["*"]
 
 ROOT_URLCONF = 'parrainages.urls'
 
